@@ -14,6 +14,7 @@ def longest_word_length_v2(words):
         if len(word) > max_length:
             max_length = len(word)
     return max_length
+
 words1 = ['python', 'is', 'awesome']
 print(f"Words: {words1}")
 print(f"Longest word length: {longest_word_length(words1)}")
